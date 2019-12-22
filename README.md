@@ -19,16 +19,17 @@ Local folder structure
 1. Navigate to the development folder `cd ~/documents/development/.`
 2. Create project directory `mkdir new_repo_automation`
 3. Navigate to the project folder `cd new_repo_automation`
-4. Create base readme with `touch README.md`
 
 Set up Github repository
 ------
-5. Create git `git init`
-6. Navigate to github.com -> create a new repository (same name) -> enter `git remote add origin https://github.com/JayFarei/new_repo_automation.git`
-7. `git add .`
-7. Create first commit with `git commit -m 'initial commit'`
-8. Push the commit with `git push --set-upstream origin master`
+4. Create git `git init`
+5. Navigate to github.com -> copy the remote of the new repository
+6. Add the remote to the local folder `git remote add origin https://github.com/JayFarei/new_repo_automation.git`
+7. Create base readme with `touch README.md`
+8. Git add `git add .`
+9. Git commit `git commit -m 'initial commit'`
+10. Git push `git push --set-upstream origin master`
 
-Start working on it
+Open project with my editor of choice
 ------
-9. Open the project folder in atom with `atom .`
+11. Open the project folder in atom with `atom .`
