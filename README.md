@@ -79,11 +79,11 @@ Note: every time you do a chance you'll have to source it again.
 
 4. Enter your access token from Github
 
-Obtain your Access token from Github
+* Obtain your Access token from Github
 
-Replace `accessToken` in `/users/<username>/documents/development/new_repo_automation/create.py`
+* Replace `accessToken` in `/users/<username>/documents/development/new_repo_automation/create.py`
 
-Replace path to match your set up in `create.py` or `.my_commands.sh`
+* Replace path to match your set up in `create.py` or `.my_commands.sh`
 
 5. Run the command line instruction
 
