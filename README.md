@@ -30,7 +30,7 @@ The automation should perform the following actions:
 
 (C) Open project with my editor of choice
 11. Open the project folder in atom with `atom .`
-----------
+
 
 ## How to use it
 
