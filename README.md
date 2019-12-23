@@ -97,7 +97,7 @@ create <New Project>
 
 ## Notes in making it:
 
-0. Navigate to your project folder and create the key files
+Navigate to your project folder and create the key files
 ```
 cd ~/documents/development/new_repo_automation
 ```
@@ -105,17 +105,17 @@ cd ~/documents/development/new_repo_automation
 touch .my_commands.sh
 touch create.py
 ```
-1. Open folder in Atom
+Open folder in Atom
 ```
 atom .
 ```
 
-2. Create a bashrc file to source your aliases
+Create a bashrc file to source your aliases
 ```
 cd
 touch ~/.bashrc
 ```
-2. Link the aliases in the bashrc files
+Link the aliases in the bashrc files
 
 ```
 atom ~/.bashrc
@@ -131,7 +131,7 @@ source ~/documents/development/new_repo_automation/my_commands.sh
 Note: whenever you make a change to the `.my_commands.sh` you'll have run this instruction `source ~/documents/development/new_repo_automation/.my_commands.sh` are the alias seems to be loaded in memory.
 
 
-3. Install dependencies
+Install dependencies
 
 ```
 sudo easy_install pip
@@ -144,7 +144,7 @@ sudo pip install -r ~/documents/development/new_repo_automation/requirements.txt
 ```
 
 
-1. python script
+**Python script**
 
 You will need the following import:
 
@@ -168,7 +168,7 @@ filename = sys.argv[1]
 ```
 
 
-2. Bash script
+**Bash script**
 
 The script is self explanatory - if you were to do all the instructions individually on your terminal - you'll end up with this set of instructions.
 
