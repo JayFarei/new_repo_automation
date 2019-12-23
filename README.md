@@ -75,7 +75,7 @@ Source both shell scripts
 source ~/documents/development/new_repo_automation/.my_commands.sh
 source ~/.bashrc
 ```
-Note: every time you do a chance you'll have to source it again.
+Note: every time you do a change you'll have to source it again.
 
 4. Enter your access token from Github
 
