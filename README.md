@@ -1,7 +1,7 @@
 ## Automating the creation of a Github repository from one terminal command
 
 
-#### Requirements this is solving for:
+#### Requirement this is solving for:
 
 > Create a terminal command that automates the steps I take when creating a new project
 
@@ -15,13 +15,11 @@ The automation should perform the following actions:
 
 
 (A) Set up local folder structure
-------
 1. Navigate to the development folder `cd ~/documents/development/.`
 2. Create project directory `mkdir new_repo_automation`
 3. Navigate to the project folder `cd new_repo_automation`
 
 (B) Set up Github repository
-------
 4. Create git `git init`
 5. Navigate to github.com -> copy the remote of the new repository
 6. Add the remote to the local folder `git remote add origin https://github.com/JayFarei/<newproject>.git`
@@ -31,11 +29,10 @@ The automation should perform the following actions:
 10. Git push `git push --set-upstream origin master`
 
 (C) Open project with my editor of choice
-------
 11. Open the project folder in atom with `atom .`
 ----------
 
-#### How to use it
+## How to use it
 
 1. Get the repository
 
