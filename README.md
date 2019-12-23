@@ -56,24 +56,29 @@ pip install -r requirements.txt
 
 3. Set up bash aliases
 
-If you don't have bashrc yet
+I [found](https://apple.stackexchange.com/questions/99688/how-to-persistently-define-aliases-in-terminal) that depending on the terminal you use - you might need to create (or edit if you already have it) both bashrc and bash_profile in your home folder. In my case I have created both - and instead of introducing the function directly there -
 
 ```
-touche ~/.bashrc
+touch ~/.bashrc
+touch ~/.bash_profile
 ```
 
-Edit bashrc (`atom ~/.bashrc`) and include the link to the custom alias provided by this repository
+Edit both file (`atom ~/.bashrc`) and include the link to the custom alias provided by this repository
 
+I am experimenting it in two ways:
 ```
 ## Github repository automation
 source /users/<username>/documents/development/new_repo_automation/.my_commands.sh
 ```
 
-Source both shell scripts
+or simply putting the content of `.my_commands.sh`
+
+Source them:
 
 ```
 source ~/documents/development/new_repo_automation/.my_commands.sh
 source ~/.bashrc
+source ~/.bash_profile
 ```
 Note: every time you do a change you'll have to source it again.
 
