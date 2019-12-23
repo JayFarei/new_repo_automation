@@ -14,12 +14,14 @@ create <project_name>
 The automation should perform the following actions:
 
 
-(A) Set up local folder structure
+**Set up local folder structure**
+
 1. Navigate to the development folder `cd ~/documents/development/.`
 2. Create project directory `mkdir new_repo_automation`
 3. Navigate to the project folder `cd new_repo_automation`
 
-(B) Set up Github repository
+**Set up Github repository**
+
 4. Create git `git init`
 5. Navigate to github.com -> copy the remote of the new repository
 6. Add the remote to the local folder `git remote add origin https://github.com/JayFarei/<newproject>.git`
@@ -28,7 +30,8 @@ The automation should perform the following actions:
 9. Git commit `git commit -m 'initial commit'`
 10. Git push `git push --set-upstream origin master`
 
-(C) Open project with my editor of choice
+**Open project with my editor of choice**
+
 11. Open the project folder in atom with `atom .`
 
 
