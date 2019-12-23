@@ -62,7 +62,7 @@ If you don't have bashrc yet
 touche ~/.bashrc
 ```
 
-Edit bashrc ('atom ~/.bashrc') and include the link to the custom alias provided by this repository
+Edit bashrc (`atom ~/.bashrc`) and include the link to the custom alias provided by this repository
 
 ```
 ## Github repository automation
@@ -170,6 +170,6 @@ filename = sys.argv[1]
 
 2. Bash script
 
-The script is self explanatory - if you were to do all the instructions individually on your terminal - you'll end up with this send of instructions.
+The script is self explanatory - if you were to do all the instructions individually on your terminal - you'll end up with this set of instructions.
 
 Worth noticing that you will have to use the entire path vs a shortened version (using ~) - I had some issues in my tests with that.
