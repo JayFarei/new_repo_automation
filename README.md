@@ -161,6 +161,12 @@ Note: I used mkdir as the tree already exists.
 
 Alternatively, makedirs is a recursive directory creation function. Like mkdir(), but makes all intermediate-level directories needed to contain the leaf directory. In our case it has to follow a cd command otherwise it'll generate all directories wherever we are based
 
+Also - to get the first argument after the script for a filename, you could do the following:
+
+```
+filename = sys.argv[1]
+```
+
 
 2. Bash script
 
