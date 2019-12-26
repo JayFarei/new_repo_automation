@@ -2,7 +2,7 @@
 
 function create() {
      cd
-     python /users/gabrielefarei/documents/development/new_repo_automation/create.py $1
+     python3 /users/gabrielefarei/documents/development/new_repo_automation/create.py $1
      cd /users/gabrielefarei/documents/development/$1
      git init
      git remote add origin git@github.com:jayfarei/$1.git
