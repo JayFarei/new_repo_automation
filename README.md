@@ -54,6 +54,18 @@ sudo easy_install pip
 pip install -r requirements.txt
 ```
 
+for python3, check if you have pip 3 with ` which pip3`, if it still points at 2.7 - do the following:
+
+```
+ curl -O https://bootstrap.pypa.io/get-pip.py
+ python3 get-pip.py
+ which pip3
+```
+then repeat the above with pip3:
+```
+pip3 install -r requirements.txt
+```
+
 3. Set up bash aliases
 
 I [found](https://apple.stackexchange.com/questions/99688/how-to-persistently-define-aliases-in-terminal) that depending on the terminal you use - you might need to create (or edit if you already have it) both bashrc and bash_profile in your home folder. In my case I have created both - and instead of introducing the function directly there -
@@ -65,13 +77,13 @@ touch ~/.bash_profile
 
 Edit both file (`atom ~/.bashrc`) and include the link to the custom alias provided by this repository
 
-I am experimenting it in two ways:
+Note: if you use zsh - do the same for `atom ~/.zshrc`
+
+
 ```
 ## Github repository automation
 source /users/<username>/documents/development/new_repo_automation/.my_commands.sh
 ```
-
-or simply putting the content of `.my_commands.sh`
 
 Source them:
 
@@ -79,6 +91,7 @@ Source them:
 source ~/documents/development/new_repo_automation/.my_commands.sh
 source ~/.bashrc
 source ~/.bash_profile
+source ~/.zshrc
 ```
 Note: every time you do a change you'll have to source it again.
 
