@@ -2,8 +2,13 @@ from github import Github
 import sys
 import os
 
+# You need to retrieve your access token from github and store it under credentials.txt in the project folder
+
+# Loading credentials:
+credentials = open ('credentials.txt')
+
 # Github access token
-accessToken = "<your token>"
+accessToken = credentials.read()
 
 # Base folder for development projects
 path = "/users/gabrielefarei/documents/development/"
