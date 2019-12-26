@@ -5,10 +5,10 @@ import os
 # You need to retrieve your access token from github and store it under credentials.txt in the project folder
 
 # Loading credentials:
-credentials = open ('credentials.txt')
+credentials = open ('/users/gabrielefarei/documents/development/new_repo_automation/credentials.txt')
 
 # Github access token
-accessToken = credentials.read()
+accessToken = credentials.read().rstrip()
 
 # Base folder for development projects
 path = "/users/gabrielefarei/documents/development/"
