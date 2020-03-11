@@ -16,6 +16,18 @@ path = "/users/gabrielefarei/documents/development/"
 # Obtaining project folder name from CML
 folderName = str(sys.argv[1])
 
+# CLI has to be provided as: python create.py arg1 arg2 arg3
+
+# len(create.py) = ['create.py', 'arg1', 'arg2', 'arg3']
+
+if len(sys.argv) > 2:
+    # Private boolean
+    privateValue = sys.argv[2]
+
+    # Description
+    description = str(sys.argv[3])
+
+
 # New folder structure
 newpath = path + folderName
 
@@ -27,7 +39,9 @@ user = g.get_user()
 os.mkdir(newpath)
 
 
-
 # Creating github repository
-repo = user.create_repo(folderName)
+repo = user.create_repo(
+    folderName,
+    description=description, 
+    private=privateValue),
 print("Succesfully created repository {}".format(folderName))

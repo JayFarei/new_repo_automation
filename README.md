@@ -75,9 +75,9 @@ touch ~/.bashrc
 touch ~/.bash_profile
 ```
 
-Edit both file (`atom ~/.bashrc`) and include the link to the custom alias provided by this repository
+Edit both file (`code ~/.bashrc`) and include the link to the custom alias provided by this repository
 
-Note: if you use zsh - do the same for `atom ~/.zshrc`
+Note: if you use zsh - do the same for `code ~/.zshrc`
 
 
 ```
@@ -123,9 +123,9 @@ cd ~/documents/development/new_repo_automation
 touch .my_commands.sh
 touch create.py
 ```
-Open folder in Atom
+Open folder in Code
 ```
-atom .
+code .
 ```
 
 Create a bashrc file to source your aliases
@@ -136,7 +136,7 @@ touch ~/.bashrc
 Link the aliases in the bashrc files
 
 ```
-atom ~/.bashrc
+code ~/.bashrc
 ```
 
 Reference the alias we'll be working on so that it'll be loaded at login
