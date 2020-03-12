@@ -14,7 +14,9 @@ And end up with a project folder set up, in sync with github & with VS Code open
 
 #### Requirement this is solving for:
 
-> Create a terminal command that automates the steps I take when creating a new project
+> Create a terminal command that automates the 12 steps I take when creating a new project
+
+Steps I typically follow are the following: 
 
 **Set up local folder structure**
 
@@ -35,7 +37,7 @@ And end up with a project folder set up, in sync with github & with VS Code open
 
 **Open project with my editor of choice**
 
-11. Open the project folder in atom with `code .`
+12. Open the project folder in atom with `code .`
 
 
 ## How to use it
