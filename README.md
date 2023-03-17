@@ -1,3 +1,9 @@
+TODO:
+- Need rethink the credentials storage
+- Need to rewrite the documentation to be tighter & have all pre-requisite covered
+- Need to put a relative path so that it'll work for all set ups? (investigate {Home})
+
+
 ## Automating the creation of a Github repository from one terminal command
 
 From anywhere from your terminal use this CLI: 
@@ -37,7 +43,7 @@ Steps I typically follow are the following:
 
 **Open project with my editor of choice**
 
-12. Open the project folder in atom with `code .`
+12. Open the project folder in VSC with `code .`
 
 
 ## How to use it
@@ -70,6 +76,11 @@ then repeat the above with pip3:
 ```
 pip3 install -r requirements.txt
 ```
+Install PyGithub
+```
+pip3 install PyGithub
+```
+
 
 3. Set up bash aliases
 
@@ -93,9 +104,7 @@ source /users/<username>/documents/development/new_repo_automation/.my_commands.
 Source them:
 
 ```
-source ~/documents/development/new_repo_automation/.my_commands.sh
-source ~/.bashrc
-source ~/.bash_profile
+source ~/Development/new_repo_automation/.my_commands.sh
 source ~/.zshrc
 ```
 Note: every time you do a change you'll have to source it again.

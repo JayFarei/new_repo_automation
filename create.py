@@ -25,13 +25,13 @@ publicRepo = results.public_repo ## 0 when flag, 1 when no flag
 # Retrieving the access token from github and stored it under credentials.txt in the project folder
 
 # Loading credentials:
-credentials = open ('/users/gabrielefarei/documents/development/new_repo_automation/credentials.txt')
+credentials = open ('/Users/gabrielefarei/Development/new_repo_automation/credentials.txt')
 
 # Github access token
 accessToken = credentials.read().rstrip()
 
 # Base folder for development projects
-path = "/users/gabrielefarei/documents/development/"
+path = "/Users/gabrielefarei/Development/"
 
 # New folder structure
 newpath = path + repoName
